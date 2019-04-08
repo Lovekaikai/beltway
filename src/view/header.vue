@@ -1,38 +1,39 @@
 <template>
+  <div>
     <div class="header">
-        <div id="main">
-            <el-row>
-                <el-col :span="18">
-                    <div class="grid-content bg-purple">
-                        <div class="logo">
-                            <img src="../assets/images/logo.png" alt="" srcset="">
-                        </div>
-                    </div>
-                </el-col>
-                <el-col :span="6">
-                    <div class="grid-content bg-purple">
-                        <div class="lang">
-                            <div class="earth">
-                                <img src="../assets/images/earth.png" alt="" srcset="">
-                                <span> 简体中文/English</span>
-                            </div>
-                        </div>
-                    </div>
-                </el-col>
-            </el-row>
-
-        </div>
-        <div class="middleImg">
-            <img src="../assets/images/middleImg.png" alt="" srcset="">
-        </div>
+      <div id="main">
+        <el-row>
+          <el-col :span="18">
+            <div class="grid-content bg-purple">
+              <div class="logo">
+                <img src="../assets/images/logo.png" alt="" srcset="">
+              </div>
+            </div>
+          </el-col>
+          <el-col :span="6">
+            <div class="grid-content bg-purple">
+              <div class="lang">
+                <div class="earth">
+                  <img src="../assets/images/earth.png" alt="" srcset="">
+                  <span> 简体中文/English</span>
+                </div>
+              </div>
+            </div>
+          </el-col>
+        </el-row>
+      </div>
     </div>
+    <div class="middleImg">
+      <img src="../assets/images/middleImg.png" alt="" srcset="">
+    </div>
+  </div>
 </template>
 <script>
 export default {}
 </script>
 <style lang="less" scoped>
 .header {
-  height: 127px;
+  // height: 127px;
   width: 100%;
   background: #ae1e24;
   #main {
@@ -48,8 +49,6 @@ export default {}
         background: #ae1e24;
       }
     }
-
-    //   }
   }
   .middleImg {
     height: 544px;
