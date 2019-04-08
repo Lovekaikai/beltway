@@ -103,6 +103,6 @@ textarea {
 #main {
   height: 200px;
   min-width: 1028px;
-  background: red;
+  /* background: red; */
   margin: auto 240px;
 }

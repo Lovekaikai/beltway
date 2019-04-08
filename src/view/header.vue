@@ -50,13 +50,13 @@ export default {}
       }
     }
   }
-  .middleImg {
-    height: 544px;
+}
+.middleImg {
+  height: 544px;
+  width: 100%;
+  img {
+    height: 100%;
     width: 100%;
-    img {
-      height: 100%;
-      width: 100%;
-    }
   }
 }
 </style>
