@@ -261,7 +261,7 @@ export default {
         vertical-align: middle;
         width: 100%;
         display: inline-block;
-        margin-left: 10px;
+        // margin-left: 10px;
         line-height: 30px;
         min-height: 30px;
         background: rgba(250, 250, 250, 1);

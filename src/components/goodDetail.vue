@@ -351,6 +351,8 @@ export default {
         margin: 8px 0;
       }
       .goodInput {
+          width: 80%;
+          padding-left: 10px;
         // width: 284px;
         min-width: 200px;
         text-align: left;
