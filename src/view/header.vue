@@ -3,14 +3,12 @@
     <div class="header">
       <div id="main">
         <el-row>
-          <el-col :span="18">
-            <div class="grid-content bg-purple">
-              <div class="logo">
-                <img src="../assets/images/logo.png" alt="" srcset="">
-              </div>
+          <el-col :span="15">
+            <div class="grid-content logo bg-purple">
+              <img src="../assets/images/logo.png" alt="" srcset="">
             </div>
           </el-col>
-          <el-col :span="6">
+          <el-col :span="9">
             <div class="grid-content bg-purple">
               <div class="lang">
                 <div class="earth">
@@ -33,19 +31,22 @@ export default {}
 </script>
 <style lang="less" scoped>
 .header {
-  // height: 127px;
   width: 100%;
   background: #ae1e24;
+
   #main {
+    min-width: 1200px;
+    max-width: 1400px;
+    margin: 0 auto;
     height: 127px;
     display: flex;
     background: #ae1e24;
     .logo {
       height: 100%;
-      width: calc(100% - 230px);
       img {
         margin: 24px 0;
         height: 76px;
+        width: 60%;
         background: #ae1e24;
       }
     }
@@ -65,6 +66,7 @@ export default {}
   .el-row {
     width: 100%;
     .lang {
+      cursor: pointer;
       display: inline-block;
       color: #fefefe;
       line-height: 127px;
@@ -76,7 +78,11 @@ export default {}
         img {
           vertical-align: middle;
         }
+        span:last-child{
+          border-bottom:1px solid #fff;
+        }
       }
+
     }
   }
 }

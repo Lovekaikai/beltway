@@ -3,7 +3,8 @@
     <Bheader></Bheader>
     <div class="store">
       <div id="main">
-        <div class="context" style="  border-bottom: 1px solid #999999;">
+        <!-- 公司介绍 -->
+        <div class="context" style="  border-bottom: 1px solid #999999;    padding-bottom: 15px;">
           <el-row>
             <el-col :span="5">
               <div class="grid-content bg-purple">
@@ -108,44 +109,518 @@
             </el-col>
           </el-row>
         </div>
-        <div class="goodList">
-          <div class="ListBox">
-            <div class="list">
-              <div class="left">
-                <div class="shopImage">
-                  <img src="../assets/images/shopImage.png" alt="" srcset="">
-                </div>
-              </div>
-              <div class="shopName">
-                <span>产品名称</span>
-              </div>
-              <div class="time">
-                <span>入库时间：2019年09月18号 12:34:23</span>
-              </div>
-              <div class="right">
-
-                <div class="shopDetail">
-                  sadfdsafasd
-                </div>
-                <div class="shopDetail">
-                  sadfdsafasd
-                </div>
-              </div>
-
-            </div>
+        <!-- 公司介绍 -->
+        <div class="goodList clearfix">
+          <div class="shopImage">
+            <img src="../assets/images/shopImage.png" alt="" srcset="">
           </div>
+          <div class="goodHeader clearfix">
+            <div class="left">
+              产品名称
+            </div>
+            <div class="right">入库时间：2019年09月18号 12:34:23</div>
+          </div>
+          <div class="goodDetail">
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
 
+          </div>
+          <div class="rightDetail">
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+          </div>
+        </div>
+        <div class="goodList">
+          <div class="shopImage">
+            <img src="../assets/images/shopImage.png" alt="" srcset="">
+          </div>
+          <div class="goodHeader clearfix">
+            <div class="left">
+              产品名称
+            </div>
+            <div class="right">入库时间：2019年09月18号 12:34:23</div>
+          </div>
+          <div class="goodDetail">
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+
+          </div>
+          <div class="rightDetail">
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+          </div>
+        </div>
+        <div class="goodList">
+          <div class="shopImage">
+            <img src="../assets/images/shopImage.png" alt="" srcset="">
+          </div>
+          <div class="goodHeader clearfix">
+            <div class="left">
+              产品名称
+            </div>
+            <div class="right">入库时间：2019年09月18号 12:34:23</div>
+          </div>
+          <div class="goodDetail">
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+
+          </div>
+          <div class="rightDetail">
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+          </div>
+        </div>
+        <div class="goodList">
+          <div class="shopImage">
+            <img src="../assets/images/shopImage.png" alt="" srcset="">
+          </div>
+          <div class="goodHeader clearfix">
+            <div class="left">
+              产品名称
+            </div>
+            <div class="right">入库时间：2019年09月18号 12:34:23</div>
+          </div>
+          <div class="goodDetail">
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+
+          </div>
+          <div class="rightDetail">
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+          </div>
+        </div>
+        <div class="goodList">
+          <div class="shopImage">
+            <img src="../assets/images/shopImage.png" alt="" srcset="">
+          </div>
+          <div class="goodHeader clearfix">
+            <div class="left">
+              产品名称
+            </div>
+            <div class="right">入库时间：2019年09月18号 12:34:23</div>
+          </div>
+          <div class="goodDetail">
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+          </div>
+          <div class="rightDetail">
+            <el-row class="detail">
+              <el-col :span="8">
+                <div class="grid-content bg-purple">参数名次：</div>
+              </el-col>
+              <el-col :span="16">
+                <div class="grid-content bg-purple-light">
+                  <div class="goodInput">
+                    35小包/打包
+                  </div>
+                </div>
+              </el-col>
+            </el-row>
+          </div>
         </div>
       </div>
     </div>
-
+    <Bfooter></Bfooter>
   </div>
 </template>
 <script>
 import Bheader from '@/view/header.vue'
+import Bfooter from '@/view/footer.vue'
 export default {
   components: {
-    Bheader
+    Bheader,
+    Bfooter
   }
 }
 </script>
@@ -226,6 +701,95 @@ export default {
       }
     }
   }
+  .goodList {
+    overflow: hidden;
+    border-bottom: 1px solid #999999;
+    // background: red;
+    margin: auto 40px;
+    min-height: 360px;
+    padding: 30px 0 30px 420px;
+    position: relative;
+    .shopImage {
+      position: absolute;
+      left: 40px;
+      top: 30px;
+    }
+
+    .goodHeader {
+      .left {
+        float: left;
+        margin-left: 35px;
+        font-size: 24px;
+        font-family: MicrosoftYaHei-Bold;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 1);
+        line-height: 47px;
+      }
+      .right {
+        float: right;
+        // margin-right: 10px;
+        font-size: 20px;
+        font-family: MicrosoftYaHei;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        line-height: 47px;
+      }
+    }
+    .clearfix:after {
+      content: ""; //设置内容为空
+      height: 0; //高度为0
+      line-height: 0; //行高为0
+      display: block; //将文本转为块级元素
+      visibility: hidden; //将元素隐藏
+      clear: both//清除浮动;
+    }
+    .goodDetail {
+      width: 50%;
+      min-height: 50px;
+      // background: yellow;
+      float: left;
+      text-align: right;
+      font-size: 18px;
+      .detail {
+        margin: 8px 0;
+      }
+      .goodInput {
+        // width: 284px;
+        text-align: left;
+        min-height: 30px;
+        font-size: 18px;
+        font-family: MicrosoftYaHei;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 1);
+        line-height: 38px;
+        line-height: 30px;
+        background: rgba(250, 250, 250, 1);
+        border: 1px solid rgba(204, 204, 204, 1);
+      }
+    }
+    .rightDetail {
+      font-size: 18px;
+      text-align: right;
+      width: 50%;
+      height: 50px;
+      // background: yellow;
+      float: left;
+      .goodInput {
+        text-align: left;
+        padding-left: 5px;
+        // width: 284px;
+        font-size: 18px;
+        font-family: MicrosoftYaHei;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 1);
+        line-height: 38px;
+        min-height: 30px;
+        line-height: 30px;
+        background: rgba(250, 250, 250, 1);
+        border: 1px solid rgba(204, 204, 204, 1);
+      }
+    }
+  }
 }
 </style>
 <style lang="less" scoped>
@@ -233,55 +797,9 @@ export default {
   margin: 8px 0;
 }
 #main {
+  min-width: 1200px;
+  max-width: 1440px;
   height: 100%;
-}
-
-.goodList {
-  .ListBox {
-    margin: 30px 40px;
-  }
-  .ListBox:last-child {
-    margin: 0 40px 30px;
-  }
-  .list {
-    position: relative;
-    height: 420px;
-    border-bottom: 1px solid #999999;
-    .left {
-      float: left;
-    }
-    .shopName {
-      vertical-align: top;
-      display: inline-block;
-      margin: 30px 0 30px 70px;
-      span:first-child {
-        margin-right: 10px;
-        font-size: 24px;
-        font-family: MicrosoftYaHei-Bold;
-        font-weight: bold;
-        color: rgba(0, 0, 0, 1);
-        line-height: 47px;
-      }
-      .time {
-        position: absolute;
-        right: 20px;
-        top: 50px;
-      }
-      .right {
-        float: left;
-
-        .shopDetail {
-          width: 50%;
-        }
-      }
-    }
-    .shopImage {
-      margin: 30px 0 30px 0;
-      display: inline-block;
-    }
-  }
-  .list:last-child {
-    border-bottom: none;
-  }
+  margin: 0 auto;
 }
 </style>

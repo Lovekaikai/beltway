@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <router-view/>
+    <div class="container">
+      <router-view />
+    </div>
+
   </div>
 </template>
 
@@ -11,5 +14,8 @@ export default {
 </script>
 
 <style>
-@import url('../src/assets/css/common.css');
+@import url("../src/assets/css/common.css");
+#app{
+  overflow: scroll;
+}
 </style>
