@@ -110,7 +110,7 @@
           </el-row>
         </div>
         <!-- 公司介绍 -->
-        <div class="goodList clearfix">
+        <div class="goodList">
           <div class="shopImage">
             <img src="../assets/images/shopImage.png" alt="" srcset="">
           </div>
@@ -123,7 +123,7 @@
           <div class="goodDetail">
             <el-row class="detail">
               <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
+                <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
                 <div class="grid-content bg-purple-light">
@@ -135,7 +135,7 @@
             </el-row>
             <el-row class="detail">
               <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
+                <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
                 <div class="grid-content bg-purple-light">
@@ -147,7 +147,7 @@
             </el-row>
             <el-row class="detail">
               <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
+                <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
                 <div class="grid-content bg-purple-light">
@@ -159,7 +159,7 @@
             </el-row>
             <el-row class="detail">
               <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
+                <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
                 <div class="grid-content bg-purple-light">
@@ -171,7 +171,7 @@
             </el-row>
             <el-row class="detail">
               <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
+                <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
                 <div class="grid-content bg-purple-light">
@@ -183,7 +183,7 @@
             </el-row>
             <el-row class="detail">
               <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
+                <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
                 <div class="grid-content bg-purple-light">
@@ -198,406 +198,7 @@
           <div class="rightDetail">
             <el-row class="detail">
               <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-          </div>
-        </div>
-        <div class="goodList">
-          <div class="shopImage">
-            <img src="../assets/images/shopImage.png" alt="" srcset="">
-          </div>
-          <div class="goodHeader clearfix">
-            <div class="left">
-              产品名称
-            </div>
-            <div class="right">入库时间：2019年09月18号 12:34:23</div>
-          </div>
-          <div class="goodDetail">
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-
-          </div>
-          <div class="rightDetail">
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-          </div>
-        </div>
-        <div class="goodList">
-          <div class="shopImage">
-            <img src="../assets/images/shopImage.png" alt="" srcset="">
-          </div>
-          <div class="goodHeader clearfix">
-            <div class="left">
-              产品名称
-            </div>
-            <div class="right">入库时间：2019年09月18号 12:34:23</div>
-          </div>
-          <div class="goodDetail">
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-
-          </div>
-          <div class="rightDetail">
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-          </div>
-        </div>
-        <div class="goodList">
-          <div class="shopImage">
-            <img src="../assets/images/shopImage.png" alt="" srcset="">
-          </div>
-          <div class="goodHeader clearfix">
-            <div class="left">
-              产品名称
-            </div>
-            <div class="right">入库时间：2019年09月18号 12:34:23</div>
-          </div>
-          <div class="goodDetail">
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-
-          </div>
-          <div class="rightDetail">
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-          </div>
-        </div>
-        <div class="goodList">
-          <div class="shopImage">
-            <img src="../assets/images/shopImage.png" alt="" srcset="">
-          </div>
-          <div class="goodHeader clearfix">
-            <div class="left">
-              产品名称
-            </div>
-            <div class="right">入库时间：2019年09月18号 12:34:23</div>
-          </div>
-          <div class="goodDetail">
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
-              </el-col>
-              <el-col :span="16">
-                <div class="grid-content bg-purple-light">
-                  <div class="goodInput">
-                    35小包/打包
-                  </div>
-                </div>
-              </el-col>
-            </el-row>
-          </div>
-          <div class="rightDetail">
-            <el-row class="detail">
-              <el-col :span="8">
-                <div class="grid-content bg-purple">参数名次：</div>
+                <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
                 <div class="grid-content bg-purple-light">
@@ -714,8 +315,8 @@ export default {
       left: 40px;
       top: 30px;
     }
-
     .goodHeader {
+      padding-left:35px;
       .left {
         float: left;
         margin-left: 35px;
@@ -727,7 +328,6 @@ export default {
       }
       .right {
         float: right;
-        // margin-right: 10px;
         font-size: 20px;
         font-family: MicrosoftYaHei;
         font-weight: 400;
@@ -752,9 +352,13 @@ export default {
       font-size: 18px;
       .detail {
         margin: 8px 0;
+        .pr{
+          margin-right:10px;
+        }
       }
       .goodInput {
         // width: 284px;
+        padding-left:10px;
         text-align: left;
         min-height: 30px;
         font-size: 18px;

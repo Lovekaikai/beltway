@@ -9,6 +9,10 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
+      path: '*', // 除了已经配置好路由
+      redirect: '/home'
+    },
+    {
       path: '/home',
       name: 'home',
       component: Home

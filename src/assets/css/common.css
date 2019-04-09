@@ -99,4 +99,6 @@ select,
 textarea {
   font-size: 100%;
 }
-
+.pr{
+ text-align: center;
+}

@@ -20,7 +20,7 @@
                     <div class="goodDetail">
                         <el-row class="detail">
                             <el-col :span="8">
-                                <div class="grid-content bg-purple">参数名次：</div>
+                                <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
                                 <div class="grid-content bg-purple-light">
@@ -32,7 +32,7 @@
                         </el-row>
                         <el-row class="detail">
                             <el-col :span="8">
-                                <div class="grid-content bg-purple">参数名次：</div>
+                                <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
                                 <div class="grid-content bg-purple-light">
@@ -44,7 +44,7 @@
                         </el-row>
                         <el-row class="detail">
                             <el-col :span="8">
-                                <div class="grid-content bg-purple">参数名次：</div>
+                                <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
                                 <div class="grid-content bg-purple-light">
@@ -56,7 +56,7 @@
                         </el-row>
                         <el-row class="detail">
                             <el-col :span="8">
-                                <div class="grid-content bg-purple">参数名次：</div>
+                                <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
                                 <div class="grid-content bg-purple-light">
@@ -68,7 +68,7 @@
                         </el-row>
                         <el-row class="detail">
                             <el-col :span="8">
-                                <div class="grid-content bg-purple">参数名次：</div>
+                                <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
                                 <div class="grid-content bg-purple-light">
@@ -80,7 +80,7 @@
                         </el-row>
                         <el-row class="detail">
                             <el-col :span="8">
-                                <div class="grid-content bg-purple">参数名次：</div>
+                                <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
                                 <div class="grid-content bg-purple-light">
@@ -95,7 +95,7 @@
                     <div class="rightDetail">
                         <el-row class="detail">
                             <el-col :span="5">
-                                <div class="grid-content bg-purple">参数名次：</div>
+                                <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="19">
                                 <div class="grid-content bg-purple-light">
@@ -127,7 +127,7 @@
                     <div class="goodDetail">
                         <el-row class="detail">
                             <el-col :span="8">
-                                <div class="grid-content bg-purple">参数名次：</div>
+                                <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
                                 <div class="grid-content bg-purple-light">
@@ -139,7 +139,7 @@
                         </el-row>
                         <el-row class="detail">
                             <el-col :span="8">
-                                <div class="grid-content bg-purple">参数名次：</div>
+                                <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
                                 <div class="grid-content bg-purple-light">
@@ -151,7 +151,7 @@
                         </el-row>
                         <el-row class="detail">
                             <el-col :span="8">
-                                <div class="grid-content bg-purple">参数名次：</div>
+                                <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
                                 <div class="grid-content bg-purple-light">
@@ -163,7 +163,7 @@
                         </el-row>
                         <el-row class="detail">
                             <el-col :span="8">
-                                <div class="grid-content bg-purple">参数名次：</div>
+                                <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
                                 <div class="grid-content bg-purple-light">
@@ -175,7 +175,7 @@
                         </el-row>
                         <el-row class="detail">
                             <el-col :span="8">
-                                <div class="grid-content bg-purple">参数名次：</div>
+                                <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
                                 <div class="grid-content bg-purple-light">
@@ -187,7 +187,7 @@
                         </el-row>
                         <el-row class="detail">
                             <el-col :span="8">
-                                <div class="grid-content bg-purple">参数名次：</div>
+                                <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
                                 <div class="grid-content bg-purple-light">
@@ -308,7 +308,7 @@ export default {
     .goodHeader {
       .left {
         float: left;
-        margin-left: 70px;
+        margin-left: 35px;
         font-size: 32px;
         font-family: MicrosoftYaHei-Bold;
         font-weight: bold;
@@ -325,7 +325,7 @@ export default {
       }
     }
     .shopName {
-      margin-left: 70px;
+      margin-left: 35px;
       font-size: 24px;
       font-family: MicrosoftYaHei-Bold;
       font-weight: bold;
