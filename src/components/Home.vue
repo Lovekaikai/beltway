@@ -40,6 +40,12 @@ export default {
       timeout: null
     }
   },
+  created () {
+    console.log(this.$Common.post)
+    this.$Common.get('http://bri.brchainshop.com/zerg/public/api/z1/goodsList').then((data) => {
+      console.log(data)
+    })
+  },
   methods: {
     loadAll () {
       return [
