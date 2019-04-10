@@ -12,8 +12,8 @@
             <div class="grid-content bg-purple">
               <div class="lang">
                 <div class="earth">
-                  <img src="../assets/images/earth.png" alt="" srcset="">
-                  <span> 简体中文/English</span>
+                  <!-- <img src="../assets/images/earth.png" alt="" srcset="">
+                  <span> 简体中文/English</span> -->
                 </div>
               </div>
             </div>

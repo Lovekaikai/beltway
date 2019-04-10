@@ -19,7 +19,7 @@
                     </div>
                     <div class="goodDetail">
                         <el-row class="detail">
-                            <el-col :span="8">
+                            <el-col :span="6">
                                 <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
@@ -31,7 +31,7 @@
                             </el-col>
                         </el-row>
                         <el-row class="detail">
-                            <el-col :span="8">
+                            <el-col :span="6">
                                 <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
@@ -43,7 +43,7 @@
                             </el-col>
                         </el-row>
                         <el-row class="detail">
-                            <el-col :span="8">
+                            <el-col :span="6">
                                 <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
@@ -55,7 +55,7 @@
                             </el-col>
                         </el-row>
                         <el-row class="detail">
-                            <el-col :span="8">
+                            <el-col :span="6">
                                 <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
@@ -67,7 +67,7 @@
                             </el-col>
                         </el-row>
                         <el-row class="detail">
-                            <el-col :span="8">
+                            <el-col :span="6">
                                 <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
@@ -79,7 +79,7 @@
                             </el-col>
                         </el-row>
                         <el-row class="detail">
-                            <el-col :span="8">
+                            <el-col :span="6">
                                 <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
@@ -126,7 +126,7 @@
                     </div>
                     <div class="goodDetail">
                         <el-row class="detail">
-                            <el-col :span="8">
+                            <el-col :span="6">
                                 <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
@@ -138,7 +138,7 @@
                             </el-col>
                         </el-row>
                         <el-row class="detail">
-                            <el-col :span="8">
+                            <el-col :span="6">
                                 <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
@@ -150,7 +150,7 @@
                             </el-col>
                         </el-row>
                         <el-row class="detail">
-                            <el-col :span="8">
+                            <el-col :span="6">
                                 <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
@@ -162,7 +162,7 @@
                             </el-col>
                         </el-row>
                         <el-row class="detail">
-                            <el-col :span="8">
+                            <el-col :span="6">
                                 <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
@@ -174,7 +174,7 @@
                             </el-col>
                         </el-row>
                         <el-row class="detail">
-                            <el-col :span="8">
+                            <el-col :span="6">
                                 <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
@@ -186,7 +186,7 @@
                             </el-col>
                         </el-row>
                         <el-row class="detail">
-                            <el-col :span="8">
+                            <el-col :span="6">
                                 <div class="grid-content bg-purple pr">参数名次：</div>
                             </el-col>
                             <el-col :span="16">
@@ -351,8 +351,8 @@ export default {
         margin: 8px 0;
       }
       .goodInput {
-          width: 80%;
-          padding-left: 10px;
+        width: 80%;
+        padding-left: 10px;
         // width: 284px;
         min-width: 200px;
         text-align: left;
@@ -370,7 +370,7 @@ export default {
       font-size: 18px;
       text-align: right;
       width: 50%;
-    //   height: 50px;
+      //   height: 50px;
       // background: yellow;
       float: left;
       .showImageBox {
@@ -445,7 +445,8 @@ export default {
 #main {
   min-width: 1200px;
   max-width: 1440px;
-//   height: 100%;
+  //   height: 100%;
+  overflow: hidden;
   margin: 0 auto;
 }
 </style>

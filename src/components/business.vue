@@ -6,7 +6,7 @@
         <!-- 公司介绍 -->
         <div class="context" style="  border-bottom: 1px solid #999999;    padding-bottom: 15px;">
           <el-row>
-            <el-col :span="5">
+            <el-col :span="4">
               <div class="grid-content bg-purple">
                 <div class="box">
                   <img src="../assets/images/taotaoju.png" alt="" srcset="">
@@ -16,7 +16,7 @@
                 </div>
               </div>
             </el-col>
-            <el-col :span="9" class="middle">
+            <el-col :span="10" class="middle">
               <div class="grid-content bg-purple">
                 <div class="middle-header">广州陶陶居饮食有限公司</div>
                 <div class="middle-content" style="margin-top:22px">
@@ -122,7 +122,7 @@
           </div>
           <div class="goodDetail">
             <el-row class="detail">
-              <el-col :span="8">
+              <el-col :span="6">
                 <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
@@ -134,7 +134,7 @@
               </el-col>
             </el-row>
             <el-row class="detail">
-              <el-col :span="8">
+              <el-col :span="6">
                 <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
@@ -146,7 +146,7 @@
               </el-col>
             </el-row>
             <el-row class="detail">
-              <el-col :span="8">
+              <el-col :span="6">
                 <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
@@ -158,7 +158,7 @@
               </el-col>
             </el-row>
             <el-row class="detail">
-              <el-col :span="8">
+              <el-col :span="6">
                 <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
@@ -170,7 +170,7 @@
               </el-col>
             </el-row>
             <el-row class="detail">
-              <el-col :span="8">
+              <el-col :span="6">
                 <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
@@ -182,7 +182,7 @@
               </el-col>
             </el-row>
             <el-row class="detail">
-              <el-col :span="8">
+              <el-col :span="6">
                 <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
@@ -197,7 +197,7 @@
           </div>
           <div class="rightDetail">
             <el-row class="detail">
-              <el-col :span="8">
+              <el-col :span="6">
                 <div class="grid-content bg-purple pr">参数名次：</div>
               </el-col>
               <el-col :span="16">
@@ -258,6 +258,7 @@ export default {
         text-align: center;
       }
       .line-box {
+            min-width: 415px;
         vertical-align: middle;
         width: 100%;
         display: inline-block;
@@ -312,19 +313,19 @@ export default {
     position: relative;
     .shopImage {
       position: absolute;
-      left: 40px;
+      left: 0;
       top: 30px;
     }
     .goodHeader {
-      padding-left:35px;
+      // padding-left:2%;
       .left {
         float: left;
-        margin-left: 35px;
+        // margin-left: 35px;
         font-size: 24px;
         font-family: MicrosoftYaHei-Bold;
         font-weight: bold;
         color: rgba(0, 0, 0, 1);
-        line-height: 47px;
+        // line-height: 47px;
       }
       .right {
         float: right;
@@ -348,13 +349,11 @@ export default {
       min-height: 50px;
       // background: yellow;
       float: left;
-      text-align: right;
+      // text-align: right;
       font-size: 18px;
       .detail {
         margin: 8px 0;
-        .pr{
-          margin-right:10px;
-        }
+
       }
       .goodInput {
         // width: 284px;

@@ -16,6 +16,6 @@ export default {
 <style>
 @import url("../src/assets/css/common.css");
 #app{
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 </style>
